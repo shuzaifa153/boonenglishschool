@@ -1,0 +1,54 @@
+* {
+    text-align: justify;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.container h2 {
+    text-align: center;
+    color: #fff;
+    font-size: 2em;
+    margin: 2em 0;
+}
+
+.container p {
+    /* color: #fff; */
+    font-size: 1em;
+    font-weight: bold;
+    line-height: 28pt;
+    margin: 1em 0;
+}
+
+
+/* ----------------- */
+
+* {
+    width: auto;
+}
+
+
+/*----------- nav bar --------- */
+
+nav {
+    /* background-color: #59e0e0; */
+    position: fixed;
+}
+
+nav>div>ul>li:hover {
+    font-size: larger;
+    font-weight: bolder;
+}
+
+nav>div>ul>li {
+    /* color: #101111; */
+    /* font-size: x-large; */
+    font-weight: bolder;
+    border-radius: 5px;
+}
+
+.navbar-brand img {
+    width: 50px;
+}

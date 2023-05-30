@@ -1,0 +1,58 @@
+body {
+    background-image: url("../images/pxfuel.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* ----------------- */
+
+* {
+    width: auto;
+    color: #fff;
+}
+
+.form-text {
+    color: #fff;
+}
+
+.container {
+    border: 2px solid aliceblue;
+    border-radius: 5%;
+}
+
+.hr {
+    border: 1px solid aliceblue;
+}
+
+
+/*----------- nav bar --------- */
+
+nav {
+    /* background-color: #59e0e0; */
+    position: fixed;
+    color: #fff;
+}
+
+nav>div>ul>li:hover {
+    font-size: larger;
+    font-weight: bolder;
+    color: #fff;
+}
+
+nav>div>ul>li {
+    /* color: #101111; */
+    /* font-size: x-large; */
+    font-weight: bolder;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.navbar-brand img {
+    width: 50px;
+}
+
+a {
+    color: #fff;
+}

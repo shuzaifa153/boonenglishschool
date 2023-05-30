@@ -1,0 +1,46 @@
+* {
+    width: auto;
+}
+
+body {
+    background-image: url("../images/istockphoto-1216628493-170667a.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    border: 2px solid aliceblue;
+    width: 80%;
+    box-shadow: 1px 1px 50px 1px;
+    border-radius: 3%;
+    padding: 1%;
+}
+
+.hr {
+    border: 1px solid aliceblue;
+}
+
+
+/*----------- nav bar --------- */
+
+nav>div>ul>li:hover {
+    font-size: larger;
+    font-weight: bolder;
+}
+
+nav>div>ul>li {
+    /* color: #101111; */
+    /* font-size: x-large; */
+    font-weight: bolder;
+    border-radius: 5px;
+}
+
+.navbar-brand img {
+    width: 50px;
+}
+
+.row {
+    color: aliceblue;
+}

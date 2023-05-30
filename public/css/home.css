@@ -1,0 +1,210 @@
+   /* * {
+       width: 100%;
+   } */
+   
+   body {
+       background: linear-gradient( #02d0f9, rgb(170, 249, 255), rgb(158, 245, 248), rgb(131, 240, 244));
+   }
+   /* new nav */
+   
+   .nav-item {
+       padding-right: 5px;
+   }
+   
+   .navbar {
+       margin-top: 2%;
+   }
+   
+   .navbar .brand {
+       color: #eb088c;
+       font-size: 50px;
+       font-weight: 700;
+       text-transform: uppercase;
+       line-height: 16px;
+       padding: 5px 0 5px;
+       margin-left: 10px;
+       text-align: center;
+       text-decoration: none;
+       display: block;
+       width: 100%;
+       height: auto;
+   }
+   
+   .navbar ul li a {
+       font-size: large;
+       padding: 5px;
+       color: #0a0a0a;
+       font-weight: 800;
+   }
+   
+   .navbar ul li a:hover {
+       color: #eb088c;
+       transition: .5s;
+   }
+   
+   .navbar {
+       text-align: right;
+   }
+   /* ================================ */
+   /* --------- header body------------- */
+   
+   .boon {
+       margin: 2%;
+       text-align: center;
+       font-size: xx-large;
+       color: #0a0a0a;
+       font-family: 'Times New Roman', Times, serif;
+       border: 2px solid saddlebrown;
+   }
+   
+   .header .ps {
+       font-size: 40px;
+       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       /* text-align: justify; */
+       /* line-height: 30pt; */
+       /* text-align: center; */
+       color: #0a0a0a;
+       font-weight: 900;
+   }
+   
+   .header .pg {
+       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       text-align: justify;
+   }
+   /* -------------- bar --------------------- */
+   
+   .bar {
+       background-color: rgb(83, 83, 187);
+       text-align: center;
+       padding-top: 5px;
+   }
+   
+   .bar .a {
+       border-color: aliceblue;
+       border-right-style: solid;
+   }
+   
+   .bar .box i {
+       font-size: xx-large;
+       color: #f7f6f6;
+   }
+   
+   .bar .box h3 {
+       color: aliceblue;
+   }
+   
+   .bar .box p {
+       color: aliceblue;
+   }
+   /* --------------------- bodyinfo-content --------------- */
+   
+   .info .ps2 {
+       font-size: 40px;
+       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       /* text-align: justify; */
+       color: #0a0a0a;
+       font-weight: 550;
+   }
+   /* ------------------------------ */
+   
+   .info {
+       text-align: center;
+       padding-top: 5px;
+   }
+   
+   .Mathmatic {
+       width: 65%;
+       height: 50%;
+       border: 2px solid #0a0a0a;
+       text-transform: uppercase;
+   }
+   
+   .science {
+       width: 65%;
+       height: 50%;
+       border: 2px solid #0a0a0a;
+       text-transform: uppercase;
+   }
+   
+   .commerce {
+       width: 65%;
+       height: 50%;
+       border: 2px solid #0a0a0a;
+       text-transform: uppercase;
+   }
+   
+   .arts {
+       width: 87%;
+       height: 50%;
+       border: 2px solid #0a0a0a;
+       text-transform: uppercase;
+   }
+   /* --------------------- body middel --------------- */
+   
+   .welcome-content {
+       color: #1b1a1a;
+       text-align: justify;
+       font-size: 20px;
+       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   }
+   
+   .welcome-img {
+       padding: 5%;
+   }
+   
+   .middel h3 {
+       text-transform: uppercase;
+   }
+   /* ===================== footer--------------------- */
+   
+   footer {
+       background-color: black;
+       color: white;
+       bottom: 0;
+       font-size: 16px;
+   }
+   
+   footer .column {
+       width: 100%;
+       display: flex;
+       flex-direction: column;
+   }
+   
+   footer div.social {
+       display: flex;
+       justify-content: space-around;
+       font-size: 2.4em;
+       flex-direction: row;
+       margin-top: 0.5em;
+   }
+   
+   footer .social i {
+       color: #bac6d9;
+   }
+   /* ============================== */
+   /* ========================= */
+   
+   .sped {
+       color: grey;
+       text-align: justify;
+       /* line-height: %; */
+   }
+   
+   .sped1 {
+       color: grey;
+       text-decoration: none;
+   }
+   
+   .loc {
+       display: inline-flex;
+   }
+   
+   .dell {
+       margin-top: 10%;
+   }
+   
+   @media screen and (max-width:767px) {
+       .font-size h3 {
+           font-size: 25px;
+       }
+   }
